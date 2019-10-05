@@ -1,0 +1,23 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "pdfslice"
+author = "qdd"
+author-email = "qdd@eruditorum.dev"
+home-page = "https://github.com/qdd-gh/pdfslice"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = [
+    "PyPDF2",
+]
+description-file = "README.md"
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+doc = [
+    "sphinx"
+]
