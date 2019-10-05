@@ -1,3 +1,5 @@
 """PDF splitting for Python"""
 
-__version__ = "2019.10.04"
+from datetime import date
+
+__version__ = date.today().strftime("%Y.%m.%d")
