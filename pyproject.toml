@@ -17,6 +17,7 @@ description-file = "README.md"
 test = [
     "pytest",
     "pytest-cov",
+    "pytest-datadir",
 ]
 doc = [
     "sphinx",

@@ -25,6 +25,7 @@ def main():
     outbase = args.infile.parent
     with args.infile.open(mode="rb") as infile:
 
-        for pagenum, page in enumerate(slice.split(infile)):
+        for pagenum, page in slice.split(infile):
             outfile = outbase / f"{prefix}-{pagenum}.pdf"
-            page.write(outfile.open("wb"))
+            with outfile.open("wb") as f:
+                f.write(page.read())
