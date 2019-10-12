@@ -1,31 +1,14 @@
-import argparse
-import pathlib
+import typing
 
+import click
 
 from pdfslice import slice
 
 
-def create_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("infile", type=pathlib.Path)
-    parser.add_argument("--prefix", type=str)
+@click.command()
+@click.argument("infile", type=click.File("rb"))
+@click.argument("prefix", type=click.STRING)
+def pdfslice(infile: typing.BinaryIO, prefix: str):
 
-    return parser
-
-
-def main():
-    parser = create_parser()
-    args = parser.parse_args()
-
-    if args.prefix:
-        prefix = args.prefix
-    else:
-        prefix = args.infile.stem
-
-    outbase = args.infile.parent
-    with args.infile.open(mode="rb") as infile:
-
-        for pagenum, page in slice.split(infile):
-            outfile = outbase / f"{prefix}-{pagenum}.pdf"
-            with outfile.open("wb") as f:
-                f.write(page.read())
+    for split in slice.filesplit(infile, prefix):
+        split.filename.write_bytes(split.page.read())

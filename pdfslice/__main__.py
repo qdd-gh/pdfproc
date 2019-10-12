@@ -1,2 +1,3 @@
 from pdfslice import cli
-cli.main()
+
+cli.pdfslice()
