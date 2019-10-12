@@ -9,6 +9,8 @@ author-email = "qdd@eruditorum.dev"
 home-page = "https://github.com/qdd-gh/pdfslice"
 classifiers = ["License :: OSI Approved :: MIT License"]
 requires = [
+    "attrs",
+    "click",
     "PyPDF2",
 ]
 description-file = "README.md"
