@@ -42,6 +42,6 @@ def test_cli_requires_output_prefix():
 
     runner = CliRunner()
     with runner.isolated_filesystem():
-        pathlib.Path("").write_bytes(b"just some nonsense")
-        result = runner.invoke(cli.pdfslice, [""])
+        pathlib.Path("test.pdf").write_bytes(b"just some nonsense")
+        result = runner.invoke(cli.pdfslice, ["test.pdf"])
         assert result.exit_code != 0
