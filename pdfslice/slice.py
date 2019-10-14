@@ -8,12 +8,16 @@ import attr
 
 @attr.s(frozen=True)
 class Page:
+    """A single PDF page ready for further processing"""
+
     number = attr.ib(type=int)
     page = attr.ib(type=BytesIO)
 
 
 @attr.s(frozen=True)
 class PageFile:
+    """A single PDF page for use in file I/O"""
+
     filename = attr.ib(type=pathlib.Path)
     page = attr.ib(type=BytesIO)
 
@@ -23,7 +27,7 @@ def split(infile: BinaryIO) -> Generator[Page, None, None]:
 
     :param infile: An open binary stream containing the original PDF.
 
-    :return: Yields Pages
+    :return: Yields `Pages`
     """
     pdf = pypdf.PdfFileReader(infile)
 
