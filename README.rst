@@ -1,9 +1,16 @@
-# pdfslice
+########
+pdfslice
+########
 
-[![Build Status](https://travis-ci.org/qdd-gh/pdfslice.svg?branch=master)](https://travis-ci.org/qdd-gh/pdfslice)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- 
+.. image:: https://img.shields.io/travis/qdd-gh/pdfslice
+    :alt: Travis (.org)
+
+.. image:: https://img.shields.io/github/license/qdd-gh/pdfslice
+    :alt: GitHub
+
 PDF splitting for Python
+
+.. code-block:: pycon
 
     >>> import pathlib
     >>> from pdfslice import slice
@@ -15,11 +22,19 @@ PDF splitting for Python
     someprefix-1.pdf
     someprefix-2.pdf
     someprefix-3.pdf
-    >>>
 
-## Installation
-### PyPI (Comming Soon!)
+Installation
+============
+PyPI (comming soon!)
+--------------------
+
+.. code-block:: console
+
     $ pip install pdfslice
     
-### Latest From GitHub Source
+Latest from GitHub source
+-------------------------
+
+.. code-block:: console
+
     $ pip install -e git+https://github.com/qdd-gh/pdfslice.git#egg=pdfslice
