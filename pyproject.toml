@@ -13,7 +13,7 @@ requires = [
     "click",
     "PyPDF2",
 ]
-description-file = "README.md"
+description-file = "README.rst"
 
 [tool.flit.metadata.requires-extra]
 test = [
