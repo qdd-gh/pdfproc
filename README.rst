@@ -1,8 +1,8 @@
-.. image:: https://travis-ci.org/qdd-gh/pdfslice.svg?branch=master
+.. image:: https://img.shields.io/travis/qdd-gh/pdfslice
     :target: https://travis-ci.org/qdd-gh/pdfslice
 
 .. image:: https://img.shields.io/github/license/qdd-gh/pdfslice
-    :alt: GitHub
+    :target: https://github.com/qdd-gh/pdfslice/blob/master/LICENSE
 
 pdfslice
 ========
