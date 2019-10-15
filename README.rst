@@ -1,12 +1,11 @@
-########
-pdfslice
-########
-
 .. image:: https://travis-ci.org/qdd-gh/pdfslice.svg?branch=master
     :target: https://travis-ci.org/qdd-gh/pdfslice
 
 .. image:: https://img.shields.io/github/license/qdd-gh/pdfslice
     :alt: GitHub
+
+pdfslice
+========
 
 PDF splitting for Python
 
@@ -24,16 +23,17 @@ PDF splitting for Python
     someprefix-3.pdf
 
 Installation
-============
+------------
+
 PyPI (comming soon!)
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: console
 
     $ pip install pdfslice
     
 Latest from GitHub source
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: console
 
