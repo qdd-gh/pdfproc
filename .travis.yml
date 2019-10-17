@@ -6,5 +6,7 @@ python:
   - "3.8-dev"
 install:
   - pip install .[test]
+  - pip install codecov
 script:
-  - pytest
+  - pytest --cov=pdfslice
+  - codecov
