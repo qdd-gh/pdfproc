@@ -20,6 +20,7 @@
 project = "pdfsplit"
 copyright = "2019, qdd"
 author = "qdd"
+master_doc = "index"
 
 
 # -- General configuration ---------------------------------------------------
