@@ -4,6 +4,9 @@
 .. image:: https://img.shields.io/github/license/qdd-gh/pdfslice
     :target: https://github.com/qdd-gh/pdfslice/blob/master/LICENSE
 
+.. image:: https://img.shields.io/readthedocs/pdfslice
+    :target: https://pdfslice.readthedocs.io/en/latest/
+
 pdfslice
 ========
 
