@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "pdfsplit"
+project = "pdfproc"
 copyright = "2019, qdd"
 author = "qdd"
 master_doc = "index"

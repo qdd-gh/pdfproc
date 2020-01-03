@@ -1,24 +1,24 @@
-.. image:: https://img.shields.io/travis/qdd-gh/pdfslice
-    :target: https://travis-ci.org/qdd-gh/pdfslice
+.. image:: https://img.shields.io/travis/qdd-gh/pdfproc
+    :target: https://travis-ci.org/qdd-gh/pdfproc
 
-.. image:: https://img.shields.io/github/license/qdd-gh/pdfslice
-    :target: https://github.com/qdd-gh/pdfslice/blob/master/LICENSE
+.. image:: https://img.shields.io/github/license/qdd-gh/pdfproc
+    :target: https://github.com/qdd-gh/pdfproc/blob/master/LICENSE
 
-.. image:: https://img.shields.io/readthedocs/pdfslice
-    :target: https://pdfslice.readthedocs.io/en/latest/
+.. image:: https://img.shields.io/readthedocs/pdfproc
+    :target: https://pdfproc.readthedocs.io/en/latest/
 
-.. image:: https://img.shields.io/codecov/c/gh/qdd-gh/pdfslice
-    :target: https://codecov.io/gh/qdd-gh/pdfslice
+.. image:: https://img.shields.io/codecov/c/gh/qdd-gh/pdfproc
+    :target: https://codecov.io/gh/qdd-gh/pdfproc
 
-pdfslice
+pdfproc
 ========
 
-PDF splitting for Python
+PDF processing tools
 
 .. code-block:: pycon
 
     >>> import pathlib
-    >>> from pdfslice import slice
+    >>> from pdfproc import slice
     >>> with open("big.pdf", "rb") as p:
     ...     for s in slice.filesplit(p, "someprefix"):
     ...          pathlib.Path(s.filename).write_bytes(s.page)
@@ -31,16 +31,16 @@ PDF splitting for Python
 Installation
 ------------
 
-PyPI (comming soon!)
-^^^^^^^^^^^^^^^^^^^^
+PyPI (coming soon!)
+^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: console
 
-    $ pip install pdfslice
+    $ pip install pdfproc
     
 Latest from GitHub source
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: console
 
-    $ pip install -e git+https://github.com/qdd-gh/pdfslice.git#egg=pdfslice
+    $ pip install -e git+https://github.com/qdd-gh/pdfproc.git#egg=pdfproc

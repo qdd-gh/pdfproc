@@ -4,7 +4,7 @@ from typing import NamedTuple, BinaryIO, Generator
 
 import pytest
 
-from pdfslice import slice
+from pdfproc import slice
 
 
 class CorpusEntry(NamedTuple):

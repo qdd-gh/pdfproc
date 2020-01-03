@@ -3,10 +3,10 @@ requires = ["flit"]
 build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
-module = "pdfslice"
+module = "pdfproc"
 author = "qdd"
 author-email = "qdd@eruditorum.dev"
-home-page = "https://github.com/qdd-gh/pdfslice"
+home-page = "https://github.com/qdd-gh/pdfproc"
 classifiers = ["License :: OSI Approved :: MIT License"]
 requires = [
     "attrs",

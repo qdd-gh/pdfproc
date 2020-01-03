@@ -1,10 +1,10 @@
-.. pdfsplit documentation master file, created by
+.. pdfproc documentation master file, created by
    sphinx-quickstart on Mon Oct 14 14:05:48 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to pdfsplit's documentation!
-====================================
+Welcome to pdfproc's documentation!
+===================================
 
 .. toctree::
    :maxdepth: 2

@@ -2,7 +2,7 @@ import typing
 
 import click
 
-from pdfslice import slice
+from pdfproc import slice
 
 
 @click.command()
