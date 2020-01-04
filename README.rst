@@ -1,14 +1,14 @@
-.. image:: https://img.shields.io/travis/qdd-gh/pdfproc
-    :target: https://travis-ci.org/qdd-gh/pdfproc
+.. image:: https://img.shields.io/travis/qdd-gh/pdfslice
+    :target: https://travis-ci.org/qdd-gh/pdfslice
 
 .. image:: https://img.shields.io/github/license/qdd-gh/pdfproc
     :target: https://github.com/qdd-gh/pdfproc/blob/master/LICENSE
 
-.. image:: https://img.shields.io/readthedocs/pdfproc
-    :target: https://pdfproc.readthedocs.io/en/latest/
+.. image:: https://img.shields.io/readthedocs/pdfslice
+    :target: https://pdfslice.readthedocs.io/en/latest/
 
-.. image:: https://img.shields.io/codecov/c/gh/qdd-gh/pdfproc
-    :target: https://codecov.io/gh/qdd-gh/pdfproc
+.. image:: https://img.shields.io/codecov/c/gh/qdd-gh/pdfslice
+    :target: https://codecov.io/gh/qdd-gh/pdfslice
 
 pdfproc
 ========
