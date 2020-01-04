@@ -7,8 +7,8 @@
 .. image:: https://img.shields.io/readthedocs/pdfslice
     :target: https://pdfslice.readthedocs.io/en/latest/
 
-.. image:: https://img.shields.io/codecov/c/gh/qdd-gh/pdfslice
-    :target: https://codecov.io/gh/qdd-gh/pdfslice
+.. image:: https://img.shields.io/codecov/c/gh/qdd-gh/pdfproc
+    :target: https://codecov.io/gh/qdd-gh/pdfproc
 
 pdfproc
 ========
